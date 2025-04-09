@@ -2,6 +2,8 @@ import project1 from "../assets/projects/netflix.png";
 import project2 from "../assets/projects/cruds.jpg";
 import project3 from "../assets/projects/memory-game.png";
 import project4 from "../assets/projects/blue-print.png";
+import project5 from "../assets/projects/Eshop.png";
+import project6 from "../assets/projects/bootstrap.png";
 
 export const HERO_CONTENT = `I'm Ali Nofal, a skilled front-end developer specializing in React.js and Next.js. With a passion for creating modern, high-performance web applications, I build user-friendly, responsive, and efficient digital experiences. My portfolio showcases a variety of projects that highlight my expertise in front-end development, UI/UX design, and performance optimization. Let's bring your ideas to life with cutting-edge web solutions!`;
 
@@ -27,14 +29,16 @@ export const PROJECTS = [
     title: "Netflix Clone web app",
     link: "https://netflix-react-tw-1ccad.web.app/",
     image: project1,
-    description: "Netflix Clone built with React, TailwindCSS & Firebase. Features user authentication, a responsive UI & dynamic movie data fetching.",
+    description:
+      "Netflix Clone built with React, TailwindCSS & Firebase. Features user authentication, a responsive UI & dynamic movie data fetching.",
     technologies: ["React", "Tailwind", "FireBase"],
   },
   {
     title: "CRUD PRODUCT MANAGEMENT SYSTEM",
     link: "https://prodcts-management-system.netlify.app/",
     image: project2,
-    description:"Product Management System built with HTML, Bootstrap & JavaScript. It features CRUD operations to add, view, update, and delete product records with a responsive, interactive interface.",
+    description:
+      "Product Management System built with HTML, Bootstrap & JavaScript. It features CRUD operations to add, view, update, and delete product records with a responsive, interactive interface.",
     technologies: ["HTML", "CSS", "Bootstrap", "JavaScript"],
   },
   {
@@ -51,7 +55,23 @@ export const PROJECTS = [
     image: project4,
     description:
       "Blueprint 360 is a responsive platform for Blueprint Company, built with React.js and Tailwind CSS. It offers a modern design showcasing their tech consulting services, optimized for all devices.",
-    technologies: ["HTML", "Tailwind", "ReactJs" ],
+    technologies: ["HTML", "Tailwind", "ReactJs"],
+  },
+  {
+    title: "Eshop",
+    link: "https://alinofal-eshop.netlify.app/",
+    image: project5,
+    description:
+      "A modern and fully responsive e-commerce web application built with React, featuring dynamic product listings, smooth user interactions, and a clean, intuitive UI. Designed to deliver a seamless online shopping experience.",
+    technologies: ["HTML", "Tailwind", "ReactJs"],
+  },
+  {
+    title: "Bootstrap project",
+    link: "https://bootstrab-app.netlify.app/",
+    image: project6,
+    description:
+      "This responsive web app showcases a sleek and modern UI built with Bootstrap, demonstrating elegant design and seamless user experience across all devices. It highlights effective use of components and layout systems tailored for professional web presentation.",
+    technologies: ["HTML", "Bootstrab"],
   },
 ];
 
