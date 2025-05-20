@@ -1,10 +1,12 @@
 import project1 from "../assets/projects/netflix.png";
-import project2 from "../assets/projects/streamerzz.png";
-import project3 from "../assets/projects/cruds.jpg";
-import project4 from "../assets/projects/memory-game.png";
-import project5 from "../assets/projects/blue-print.png";
-import project6 from "../assets/projects/Eshop.png";
-import project7 from "../assets/projects/bootstrap.png";
+import project2 from "../assets/projects/user-dashboard.png";
+import project3 from "../assets/projects/streamerzz.png";
+import project4 from "../assets/projects/3d-project.png";
+import project5 from "../assets/projects/cruds.jpg";
+import project6 from "../assets/projects/memory-game.png";
+import project7 from "../assets/projects/blue-print.png";
+import project8 from "../assets/projects/Eshop.png";
+import project9 from "../assets/projects/bootstrap.png";
 
 export const HERO_CONTENT = `I'm Ali Nofal, a skilled front-end developer specializing in React.js and Next.js. With a passion for creating modern, high-performance web applications, I build user-friendly, responsive, and efficient digital experiences. My portfolio showcases a variety of projects that highlight my expertise in front-end development, UI/UX design, and performance optimization. Let's bring your ideas to life with cutting-edge web solutions!`;
 
@@ -35,17 +37,33 @@ export const PROJECTS = [
     technologies: ["React", "Tailwind", "FireBase"],
   },
   {
-    title: "Streamerzz web app",
-    link: "https://streamerzz-an.netlify.app/",
+    title: "User Dashboard",
+    link: "https://user-dashboard2.netlify.app/",
     image: project2,
     description:
+      "A modern and responsive admin dashboard built with Next.js, Tailwind CSS, and Chart.js  featuring interactive charts and a clean UI for efficient data management.",
+    technologies: ["Next Js", "Tailwind Css", "Chart Js"],
+  },
+  {
+    title: "Streamerzz web app",
+    link: "https://streamerzz-an.netlify.app/",
+    image: project3,
+    description:
       "Streamerzz is a sleek, modern streaming platform UI built with React and Tailwind CSS, showcasing dynamic movie listings and smooth user interactions. It highlights responsive design and a clean, intuitive interface ideal for entertainment platforms.",
-    technologies: ["React", "Tailwind Css", "Framer Motion", 'React-scroll'],
+    technologies: ["React", "Tailwind Css", "Framer Motion", "React-scroll"],
+  },
+  {
+    title: "3D Project",
+    link: "https://3d-projectt.netlify.app/",
+    image: project4,
+    description:
+      "A creative 3D web experience built with HTML, CSS, and Spline, featuring a robot that smoothly follows the user's cursor for an engaging, interactive effect.",
+    technologies: ["Html", "Css", "Spline"],
   },
   {
     title: "CRUD PRODUCT MANAGEMENT SYSTEM",
     link: "https://prodcts-management-system.netlify.app/",
-    image: project3,
+    image: project5,
     description:
       "Product Management System built with HTML, Bootstrap & JavaScript. It features CRUD operations to add, view, update, and delete product records with a responsive, interactive interface.",
     technologies: ["HTML", "CSS", "Bootstrap", "JavaScript"],
@@ -53,7 +71,7 @@ export const PROJECTS = [
   {
     title: "Memory Game",
     link: "https://memory-gamme.netlify.app/",
-    image: project4,
+    image: project6,
     description:
       "The Memory Game is a fun and visually engaging project created using HTML, CSS, and React.js. It challenges players to test their memory by matching pairs of cards through a series of flips.",
     technologies: ["HTML", "CSS", "React"],
@@ -61,7 +79,7 @@ export const PROJECTS = [
   {
     title: "Blue-Print360",
     link: "https://blueprint-360.com/",
-    image: project5,
+    image: project7,
     description:
       "Blueprint 360 is a responsive platform for Blueprint Company, built with React.js and Tailwind CSS. It offers a modern design showcasing their tech consulting services, optimized for all devices.",
     technologies: ["HTML", "Tailwind", "ReactJs"],
@@ -69,7 +87,7 @@ export const PROJECTS = [
   {
     title: "Eshop",
     link: "https://alinofal-eshop.netlify.app/",
-    image: project6,
+    image: project8,
     description:
       "A modern and fully responsive e-commerce web application built with React, featuring dynamic product listings, smooth user interactions, and a clean, intuitive UI. Designed to deliver a seamless online shopping experience.",
     technologies: ["HTML", "Tailwind", "ReactJs"],
@@ -77,7 +95,7 @@ export const PROJECTS = [
   {
     title: "Bootstrap project",
     link: "https://bootstrab-app.netlify.app/",
-    image: project7,
+    image: project9,
     description:
       "This responsive web app showcases a sleek and modern UI built with Bootstrap, demonstrating elegant design and seamless user experience across all devices. It highlights effective use of components and layout systems tailored for professional web presentation.",
     technologies: ["HTML", "Bootstrab"],
