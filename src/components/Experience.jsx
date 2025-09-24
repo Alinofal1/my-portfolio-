@@ -34,10 +34,16 @@ const Experience = () => {
             >
               <h6 className="mb-2 font-semibold">
                 {ex.role} -{" "}
-                <Link to={'https://blueprint-360.com/'} target="_blank" className="text-sm text-purple-100">{ex.company}</Link>
+                <Link
+                  to={ex.link}
+                  target="_blank"
+                  className="text-sm text-purple-100"
+                >
+                  {ex.company}
+                </Link>
               </h6>
               <p className="mb-4 text-neutral-400">{ex.description}</p>
-              {ex.technologies.map((tech, i) => (
+              {ex.technologies?.map((tech, i) => (
                 <span
                   key={i}
                   className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800"
